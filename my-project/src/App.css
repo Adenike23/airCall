@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.active-tab{
+  padding: 5px;
+  color: rgb(24, 23, 23);
+  border-bottom: 3px solid rgb(24, 23, 23);
+}

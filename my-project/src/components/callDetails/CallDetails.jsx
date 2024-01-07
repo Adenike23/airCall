@@ -14,6 +14,7 @@ const CallDetails = () => {
   const navigate = useNavigate()
   const [oneCall, setOneCall] = useState([]);
   const { id } = useParams();
+  
 
   const getOneCall = async () => {
     // setLoading(true)

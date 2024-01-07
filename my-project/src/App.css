@@ -12,3 +12,10 @@
   box-shadow: 2px 2px 10px black;
   transform: scale(1.01);
 }
+.archive_all:hover{
+  box-shadow: 2px 2px 10px black;
+  transform: scale(1.01);
+}
+.archive_all:active{
+  transform: scale(0.9);
+}

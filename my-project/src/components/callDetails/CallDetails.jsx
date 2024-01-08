@@ -3,7 +3,7 @@ import { BiSolidMessage } from "react-icons/bi";
 import {
   BsTelephoneInbound,
   BsFillTelephoneOutboundFill,
-  BsArchiveFill,
+  BsFillCameraVideoFill,
 } from "react-icons/bs";
 import { MdMarkEmailUnread, MdArrowBack } from "react-icons/md";
 import { BiSolidPhone } from "react-icons/bi";
@@ -51,8 +51,8 @@ const CallDetails = () => {
             <span title="mail" className="text-xl rounded-tl-lg border p-2">
               <MdMarkEmailUnread />
             </span>
-            <span title="archive" className="text-xl rounded-tl-lg border p-2">
-              <BsArchiveFill />
+            <span title="video call" className="text-xl rounded-tl-lg border p-2">
+              <BsFillCameraVideoFill />
             </span>
           </div>
           <div className="flex justify-between m-2 p-2 rounded-lg border">
